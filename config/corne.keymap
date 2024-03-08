@@ -15,7 +15,6 @@
 #define NAV 2
 #define NUM 3
 #define SYM 4
-#define OS 5
 
 / {
     combos {
