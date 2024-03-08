@@ -11,10 +11,10 @@
 // Layer definitions
 
 #define BASE 0
-#define COLEMAKDH 1 
-#define NAV 2
-#define NUM 3
-#define SYM 4
+#define COLEMAKDH 1
+#define SYM 2
+#define NAV 3
+#define NUM 4
 
 / {
     combos {
