@@ -56,10 +56,10 @@
         };
         number_layer {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4 &kp N5    &kp PLUS  &kp N7  &kp N8  &kp N9  &kp ASTRK  &trans
-&trans  &kp N6  &kp N7  &kp N8  &kp N9 &kp N0    &kp MINUS &kp N4  &kp N5  &kp N6  &kp SLASH  &trans
-&trans  &trans  &trans  &trans  &trans &trans    &kp COMMA &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans
-                        &trans  &trans  &trans    &lt SYM BSPC   &kp N0  &kp DOT
+&trans  &kp N1        &kp N2        &kp N3        &kp N4       &kp N5          &kp PLUS  &kp N7  &kp N8  &kp N9  &kp ASTRK  &trans
+&trans  &kp N6        &kp N7        &kp N8        &kp N9       &kp N0          &kp MINUS &kp N4  &kp N5  &kp N6  &kp SLASH  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3 &bt BT_SEL 4    &kp COMMA &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans
+                        &bt BT_CLR  &trans  &trans    &lt SYM BSPC   &kp N0  &kp DOT
             >;
         };
         symbol_layer {
